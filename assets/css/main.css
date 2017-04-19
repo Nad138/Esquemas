@@ -1,0 +1,7 @@
+div{
+  background-color: teal;
+  border: black solid 5px;
+  position: relative;
+  left: 300px;
+  top:50px;
+}
