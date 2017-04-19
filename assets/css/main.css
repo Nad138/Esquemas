@@ -1,21 +1,23 @@
-div{
-  text-align: center;
-  background-color: teal;
-  border: black solid 5px;
-  position: relative;
-
-}
 #coral{
+  position: relative;
   left: 300px;
   top:50px;
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   background-color: tomato;
 }
 #amarillo{
+  background-color: yellow;
   position: absolute;
   left:0;
   top:0;
+  width: 100px;
+  height: 100px;
+}
+#lila{
+  background-color: darkmagenta;
+  position: relative;
+  margin: 50px;
   width: 300px;
   height: 300px;
 }

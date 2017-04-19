@@ -1,19 +1,17 @@
 var body = document.getElementById("body");
-var div = document.createElement("div");
+var coral = document.createElement("div");
+var lila = document.createElement("div");
+var amarillo = document.createElement("div");
+var negro = document.createElement("div");
+var verde = document.createElement("div");
+var azul = document.createElement("div");
 
 function createElements(){
-  function create(){
-    body.appendChild(div);
-    div.setAttribute("id", "amarillo");
-    }
-  function create(){
-    body.appendChild(div);
-    div.setAttribute("id", "lila");
-    }
-  function create(){
-    body.appendChild(div);
-    div.setAttribute("id", "coral");
-    }
-    create();
+  body.appendChild(coral);
+  coral.setAttribute("id", "coral");
+  coral.appendChild(lila);
+  lila.setAttribute("id", "lila");
+  lila.appendChild(amarillo);
+  amarillo.setAttribute("id", "amarillo");
   }
 createElements();
